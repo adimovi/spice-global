@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.container
+{
+  width: 90%!important;
+}
+
+img{
+  border-radius: 10px;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+    font-style: normal;
+  
+}
+
+
+:root{
+  --main-color:#2d669d;
+  --secondary-color:#e7f2fc;
+  --white-color:#fff;
+  --main-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2)!important;
+}
+
+.bold, b{
+  font-weight: bold;
+}
+
+
+h1{
+  font-size:47px;
+  font-weight: bold;
+  color:var(--main-color);
+}
+
+h2{
+  font-size: 29px;
+}
+
+h3{
+  font-size:24px;
+}
+
+p{
+  font-size: 20px;
+}
+
+p.bigger{
+  font-size:22px;
+}
+
+.header a{
+  text-decoration: none;
+  color:#000;
+}
+
+.nav-link{
+  color:#000;
+  margin: 0px 50px;
+  font-weight: 500;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.nav-link:hover{
+  background-color: var(--secondary-color);
+
+}
+
+.navbar{
+  border-color:var(--main-color)!important;
+  background-color: var(--white-color);
+}
+
+.nav-item{
+  align-self: center;
+
+}
+
+.btn-main{
+  background-color: var(--main-color);
+  color:#fff;
+  padding: 12px;
+  font-weight: 500;
+  border-radius: 10px;
+  border:1px solid var(--white-color);
+}
+
+.active{
+  color: var(--main-color)!important;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  box-shadow: var(--main-shadow);
+}
+
+.header-title{
+  display: inline-block;
+  background-color: #fff;
+  padding: 35px;
+  color:#000;
+  border-radius: 10px;
+}
+
+footer a{
+  color:#fff;
+  text-decoration: none;
+}
+
+footer ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+
+.social-img{
+  width: 25px;
+  filter: invert(100%);
+  margin-bottom: 10px;
+  border-radius: 0px;
+}
+
+.col .bg-white{
+
+  height: 240px;
+  align-content: center;
+}
+
+.footer-button{
+  display: inline-block;
+  background-color: var(--main-color);
+  padding: 35px;
+  color:var(--white-color);
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.col .bg-white{
+  transition: linear 0.3s;
+}
+ .col .bg-white:hover{
+  background-color: var(--main-color)!important;
+  color:#fff;
+  transition: linear 0.3s;
+}
+
+
+
+
+
