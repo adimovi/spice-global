@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spice-global/static/css/main.49fd5c7d.css",
+    "main.js": "/spice-global/static/js/main.c361d8e2.js",
+    "index.html": "/spice-global/index.html",
+    "main.49fd5c7d.css.map": "/spice-global/static/css/main.49fd5c7d.css.map",
+    "main.c361d8e2.js.map": "/spice-global/static/js/main.c361d8e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49fd5c7d.css",
+    "static/js/main.c361d8e2.js"
+  ]
+}
