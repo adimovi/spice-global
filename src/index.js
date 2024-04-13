@@ -14,7 +14,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/spice-global/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/locations" element={<Locations />} />
