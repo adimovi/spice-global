@@ -6,7 +6,7 @@ const Layout = () => {
     <>
     <ScrollToTopButton/>
       <div className="container-fluid text-center header bg-white py-3" id="home">
-        <Link to="/spice-global" activeClassName="active-link">
+        <Link to="/" activeClassName="active-link">
           <h1 className="mb-0 bold">
             Spice Global Management
           </h1>
@@ -22,15 +22,15 @@ const Layout = () => {
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 
             <li className="nav-item">
-              <NavLink className="nav-link"   to="/spice-global/about">About Us</NavLink>
+              <NavLink className="nav-link"   to="/about">About Us</NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link"   to="/spice-global/locations">Locations</NavLink>
+              <NavLink className="nav-link"   to="/locations">Locations</NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link btn-main"   to="/spice-global/join">Apply to join as an event manager partner</NavLink>
+              <NavLink className="nav-link btn-main"   to="/join">Apply to join as an event manager partner</NavLink>
             </li>
 
           </ul>
