@@ -12,17 +12,17 @@ return (
     <div className="row">
       <div className="col-lg-4 col-12 align-self-center">
         <ul>
-          <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/locations">Locations</Link></li>
-          <li><Link to="/join">Apply to join as an event manager parner</Link></li>
+          <li><Link to="/spice-global/about">About Us</Link></li>
+          <li><Link to="/spice-global/locations">Locations</Link></li>
+          <li><Link to="/spice-global/join">Apply to join as an event manager parner</Link></li>
         </ul>
       </div>
       <div className="col-lg-4 col-12 align-self-center">
         <ul>
-          <li><Link to="/contact">Contact Us</Link></li>
-          <li><Link to="/privacy">Privacy Policy</Link></li>
-          <li><Link to="/cookie">Cookie Policy</Link></li>
-          <li><Link to="/terms">Terms and Conditions</Link></li>
+          <li><Link to="/spice-global/contact">Contact Us</Link></li>
+          <li><Link to="/spice-global/privacy">Privacy Policy</Link></li>
+          <li><Link to="/spice-global/cookie">Cookie Policy</Link></li>
+          <li><Link to="/spice-global/terms">Terms and Conditions</Link></li>
         </ul>
       </div>
     
@@ -35,7 +35,7 @@ return (
       </div>
     </div>
     <p className="mt-5 text-center">
-      Copyright <Link to="/">Murph’s Coworking Pubs</Link>
+      Copyright <Link to="/spice-global">Murph’s Coworking Pubs</Link>
     </p>
   </div>
 </footer>
