@@ -8,7 +8,7 @@ export  function Home() {
            style={{backgroundColor:"var(--secondary-color)"}}>
               <div className="container text-center py-5">
                   <h1 className="text-center">
-                  A global collective of existing local boutique Event Management partner companies in over 700 locations worldwide, serving new national and <br className="d-lg-block d-none"/> international client’s requirements.
+                  A global collective of local boutique Event Management partner companies in over 700 locations worldwide, serving new national and <br className="d-lg-block d-none"/> international client’s requirements.
                   </h1>
                   <h1 className="header-title shadow mb-0 my-5">Business & Personal Global Concierge Services</h1>
               </div>
@@ -165,7 +165,7 @@ ETC.
            
            <div className="text-center pb-5">
                  
-                 <Link to="/join">
+                 <Link to="/spice-global/join">
                  <h2 className="footer-button shadow my-5">Apply to join us for your location, and let’s see what happens from there.</h2>
                  </Link>
                  
