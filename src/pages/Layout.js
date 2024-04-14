@@ -7,7 +7,7 @@ const Layout = () => {
     <>
     <ScrollToTopButton/>
       <div className="container-fluid text-center header bg-white py-3" id="home">
-        <Link to="/">
+        <Link to="/spice-global/">
           <h1 className="mb-0 bold">
             Spice Global Management
           </h1>

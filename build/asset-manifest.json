@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/spice-global/static/css/main.49fd5c7d.css",
-    "main.js": "/spice-global/static/js/main.57b81668.js",
+    "main.js": "/spice-global/static/js/main.51d8c2e0.js",
     "index.html": "/spice-global/index.html",
     "main.49fd5c7d.css.map": "/spice-global/static/css/main.49fd5c7d.css.map",
-    "main.57b81668.js.map": "/spice-global/static/js/main.57b81668.js.map"
+    "main.51d8c2e0.js.map": "/spice-global/static/js/main.51d8c2e0.js.map"
   },
   "entrypoints": [
     "static/css/main.49fd5c7d.css",
-    "static/js/main.57b81668.js"
+    "static/js/main.51d8c2e0.js"
   ]
 }

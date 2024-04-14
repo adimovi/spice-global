@@ -35,7 +35,7 @@ return (
       </div>
     </div>
     <p className="mt-5 text-center">
-      Copyright <Link to="/spice-global">Murph’s Coworking Pubs</Link>
+      Copyright <Link to="/spice-global/">Murph’s Coworking Pubs</Link>
     </p>
   </div>
 </footer>
