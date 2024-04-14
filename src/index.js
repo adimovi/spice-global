@@ -6,26 +6,38 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Locations from "./pages/Locations";
 import Join from "./pages/Join";
+import NoPage from "./pages/NoPage";
 import Footer from "./components/Footer";
 import './desktop.css';
 import './mobile.css';
 
+
 export default function App() {
   return (
+    <>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/locations" element={<Locations />} />
-          <Route path="/join" element={<Join />} />
-        </Route>
-      </Routes>
-      <Footer/>
+    <Layout/>
+    <Routes>
+      <Route index element={<Home/>} />
+      <Route path="/home" element={<Home/>} />
+      <Route path="/about" element={<About/>} />
+      <Route path="/locations" element={<Locations/>} />
+      <Route path="/Join" element={<Join/>} />
+      <Route path="*" element={<NoPage/>} />
+    </Routes>
+    <Footer/>
     </BrowserRouter>
-
+    </>
   );
 }
+
+
+
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);

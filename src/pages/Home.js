@@ -20,7 +20,7 @@ export  function Home() {
         <section>
         <div className="row my-5 bg-white rounded-3  shadow">
           <div className="col-lg-7 col-12 p-lg-4 p-2">
-              <p>Spice Global Management is only a concept idea for the moment, and it is the creation of Barry Murphy from Ireland who is a lifelong serial successful entrepreneur. (See the <Link to="/spice-global/about">about page</Link> )</p>
+              <p>Spice Global Management is only a concept idea for the moment, and it is the creation of Barry Murphy from Ireland who is a lifelong serial successful entrepreneur. (See the <Link to="/about">about page</Link> )</p>
               <p>If we can find enough quality boutique professional event management companies who would like to partner with us locally in over 700 locations worldwide, we will create the website and APP fully.</p>
               <p>The concept was designed because Barry was trying to find different quality service providers in multiple locations worldwide simultaneously, and he realised how time consuming and difficult it is.</p>
               <p>Then he was thinking about how many other companies or entrepreneurs have the same issue, and why not create a solution to the problem. </p>
