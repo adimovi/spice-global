@@ -23,15 +23,15 @@ const Layout = () => {
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About Us</Link>
+              <Link className="nav-link" to="/spice-global/about">About Us</Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link"   to="/locations">Locations</Link>
+              <Link className="nav-link"   to="/spice-global/locations">Locations</Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link btn-main"   to="/join">Apply to join as an event manager partner</Link>
+              <Link className="nav-link btn-main"   to="/spice-global/join">Apply to join as an event manager partner</Link>
             </li>
 
           </ul>

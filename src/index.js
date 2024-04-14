@@ -20,9 +20,9 @@ export default function App() {
     <Routes>
       <Route index element={<Home/>} />
       <Route path="/spice-global/" element={<Home/>} />
-      <Route path="/about" element={<About/>} />
-      <Route path="/locations" element={<Locations/>} />
-      <Route path="/Join" element={<Join/>} />
+      <Route path="/spice-global/about" element={<About/>} />
+      <Route path="/spice-global/locations" element={<Locations/>} />
+      <Route path="/spice-global/Join" element={<Join/>} />
       <Route path="*" element={<NoPage/>} />
     </Routes>
     <Footer/>
