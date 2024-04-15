@@ -147,7 +147,7 @@ ETC.
 
           <h2 className="text-center pt-5 pb-3"
               style={{color:"var(--main-color)"}}>
-            <b>How will we all make money from our boutique global network?
+            <b>Questions potential event management partners need to ask themselves before applying to join us:
 </b></h2>
 
 <div className="col-12 mb-5 p-lg-4 p-2 text-center bg-white rounded-3 shadow">
