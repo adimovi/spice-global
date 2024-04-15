@@ -97,7 +97,7 @@ export  function Home() {
           </div>
         </div>
 
-        <p className="text-center mb-0 mt-5"><b>(Our Event Management Partners will select which of these services they will handle inhouse, and which they will use external local quality providers for)</b></p>
+        <p className="text-center mb-0 mt-5"><b>(Our Event Management Partners will select which of these services they <br className="d-lg-block d-none"/> will handle inhouse,  and which they will use external local quality providers for)</b></p>
 
         <div className="row d-flex my-5">
           <div className="col">
@@ -147,7 +147,7 @@ ETC.
 
           <h2 className="text-center pt-5 pb-3"
               style={{color:"var(--main-color)"}}>
-            <b>Questions potential event management partners need to ask themselves before applying to join us:
+            <b>Questions potential event management partners <br className="d-lg-block d-none"/>need to ask themselves before applying to join us:
 </b></h2>
 
 <div className="col-12 mb-5 p-lg-4 p-2 text-center bg-white rounded-3 shadow">
